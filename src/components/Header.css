@@ -1,0 +1,36 @@
+.header-components {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 85px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px;
+    z-index: 3;
+}
+
+.header-right {
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.header-right button {
+  width: 100px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  font-weight: bolder;
+}
+
+.header-right button:hover {
+  background-color: white;
+}

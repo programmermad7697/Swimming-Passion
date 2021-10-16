@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+.banner_home img {
+  position: relative;
+  min-height: calc(100vh - 250px);
+  overflow-x: hidden;
+  display: block;
+  top: 87px;
+  background: url('https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center center / cover no-repeat;
+  height: 40%;
+  width: 100%;
+}
+
+.banner_title h1 {
+  position: absolute;
+  padding-left: 10%;
+  top: 20%;
+  color: white;
+  font-size: 80px;
+  font-family: 'Birthstone', cursive;
+}
+
+.banner_title h1:nth-child(2) {
+  position: absolute;
+  padding-left: 10%;
+  top: 27.5%;
+  color: white;
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: 'Birthstone', cursive;
+}
+
+.banner_title p {
+  position: absolute;
+  padding-left: 10%;
+  top: 40%;
+  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: 'Birthstone', cursive;
+}
